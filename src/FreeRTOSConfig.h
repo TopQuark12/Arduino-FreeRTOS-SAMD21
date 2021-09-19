@@ -172,5 +172,7 @@ each implementation - which would waste RAM.  In this case, there is only one
 command interpreter running. */
 #define configCOMMAND_INT_MAX_OUTPUT_SIZE 2048
 
+#include "SEGGER_SYSVIEW_FreeRTOS.h"
+
 #endif /* FREERTOS_CONFIG_H */
 

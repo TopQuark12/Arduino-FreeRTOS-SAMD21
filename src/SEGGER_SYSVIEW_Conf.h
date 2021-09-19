@@ -79,6 +79,9 @@ Additional information:
 **********************************************************************
 */
 
+#include "Arduino.h"
+#define SEGGER_SYSVIEW_GET_TIMESTAMP()          micros()
+#define SEGGER_SYSVIEW_TIMESTAMP_BITS           32
 
 #endif  // SEGGER_SYSVIEW_CONF_H
 
